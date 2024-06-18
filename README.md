@@ -51,57 +51,56 @@ Before starting, ensure you have the following installed:
    ```bash
    git clone https://github.com/leaish613/FinTrack.git
    cd FinTrack
-2.Install dependencies for the frontend (React):
 
-bash
-Copy code
-cd frontend
-npm install
-Install dependencies for the backend (Python):
+2. Install dependencies for the frontend (React):
 
-bash
-Copy code
-cd ../backend
-pip install -r requirements.txt
-Usage
+    ```bash 
+    cd frontend 
+    npm install
+    
+3. Install dependencies for the backend (Python):
+
+    ```bash 
+    cd ../backend 
+    pip install -r requirements.txt
+
+## Usage
 To run FinTrack, follow these steps:
 
-Start the Backend Server (Flask)
-Navigate to the backend directory:
+### Start the Backend Server (Flask)
 
-bash
-Copy code
-cd backend
-Run the Flask server:
+1. Navigate to the backend directory:
 
-bash
-Copy code
-python app.py
+    ```bash
+    cd backend
+
+2. Run the Flask server:
+
+    ```bash     
+    python app.py
+
 The backend server should now be running at http://localhost:5000.
 
-Start the Frontend (React)
-Navigate to the frontend directory:
+### Start the Frontend (React)
+1. Navigate to the frontend directory:
 
-bash
-Copy code
-cd ../frontend
-Start the React development server:
+    ```bash 
+    cd frontend 
 
-bash
-Copy code
-npm start
+2. Start the React development server:
+
+    ```bash 
+    npm start
+
 The React app should now be running and accessible at http://localhost:3000.
 
 ## Available Scripts
 In the project directory, you can run:
 
-npm start: Runs the app in development mode for the React frontend. Open http://localhost:3000 to view it in your browser. The page will reload when you make changes, and you may see lint errors in the console.
-Database Integration
-FinTrack uses SQLite as the database to store and manage financial data. The Python backend interacts with the SQLite database to provide seamless data management.
+- npm start: Runs the app in development mode for the React frontend. Open http://localhost:3000 to view it in your browser. The page will reload when you make changes, and you may see lint errors in the console.
 
-## Learn More
-SQLite Documentation
-Create React App Documentation
+## Database Integration
+FinTrack uses SQLite as the database to store and manage financial data. The Python backend interacts with the SQLite database to provide seamless data management.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request for review.
